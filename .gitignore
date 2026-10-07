@@ -1,0 +1,42 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment and Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+serviceAccountKey.json
+
+# IDE / Editor configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+Debugging_Changes_in_Phase_3.5.txt
+Improvement_Changes_in_Phase_3.5.txt
+Feature_Enhancement_of_Phase_3.5.txt
+Implementation_Phase_1.txt
+Implementation_Phase_2.txt
+Implementation_Phase_3.txt
+Implementation_Phase_3.5.txt
+Implementation_Phase_4.txt

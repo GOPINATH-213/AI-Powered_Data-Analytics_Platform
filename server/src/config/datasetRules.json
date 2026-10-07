@@ -1,0 +1,39 @@
+{
+  "businessKeywords": [
+    "revenue", "sales", "profit", "cost", "customer", "product", 
+    "transaction", "invoice", "date", "quantity", "inventory", 
+    "employee", "salary", "attendance", "asset", "liability", 
+    "expenses", "department", "region", "discount", "tax", "order"
+  ],
+  "unsuitableKeywords": [
+    "resume", "cv", "curriculum", "education", "skills", "experience", 
+    "projects", "passport", "aadhaar", "pan card", "driving license", 
+    "degree", "diploma", "certificate", "marksheet", "offer letter", 
+    "invitation", "grade", "gpa", "national", "republic"
+  ],
+  "domains": {
+    "Retail": ["sales", "customer", "product", "store", "order", "quantity", "discount", "retail", "price"],
+    "Finance": ["revenue", "profit", "asset", "liability", "equity", "tax", "invoice", "cost", "financial", "ledger", "balance"],
+    "Healthcare": ["patient", "doctor", "appointment", "prescription", "clinical", "treatment", "hospital", "diagnosis", "health"],
+    "HR": ["employee", "salary", "payroll", "hiring", "leave", "attendance", "performance", "recruitment"],
+    "Manufacturing": ["machine", "sensor", "maintenance", "part", "factory", "production", "yield", "assembly", "defect"]
+  },
+  "weights": {
+    "basePoints": 10,
+    "hasNumericColumns": 20,
+    "hasDateColumns": 20,
+    "hasCurrencyColumns": 15,
+    "businessKeywordMatch": 20,
+    "missingValuePenaltyMultiplier": -1.5,
+    "duplicateRowPenaltyMultiplier": -2.0,
+    "insufficientRowsPenalty": -15
+  },
+  "aliasMappings": {
+    "customerid": ["customer_id", "cust_id", "client_id", "customerkey", "custkey"],
+    "productid": ["product_id", "product_code", "prod_id", "productkey", "item_id", "itemid"],
+    "employeeid": ["employee_id", "staff_id", "emp_id", "staffid", "empid"],
+    "invoiceid": ["invoice_id", "invoice_no", "invoiceid", "inv_id", "bill_id"],
+    "orderid": ["order_id", "orderid", "ord_id", "transactionid", "transaction_id"],
+    "storeid": ["store_id", "storeid", "loc_id", "branch_id", "branchid"]
+  }
+}
